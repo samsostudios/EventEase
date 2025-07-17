@@ -23,7 +23,7 @@ class FAQ {
     this.items.forEach((item) => {
       let isOpen = false;
 
-      console.log('FAQ', item);
+      // console.log('FAQ', item);
       item.addEventListener('click', () => {
         const getAnswer = item.querySelector('.faq_item-a');
         const getIcon = item.querySelector('.faq_icon');
